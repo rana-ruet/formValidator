@@ -33,12 +33,22 @@ margin-bottom: 2rem;
 
 .form{
     padding: 3rem 4rem;
-    width: 40vw;
+    width: 40vw
+}
+@media (max-width: 992px) {
+    .form{
+        width: 60vw;
+    }
+}
+@media (max-width: 576px) {
+    .form{
+        width: 90vw;
+    }
 }
 
 .form-control{
-    margin-bottom: 1rem;
     padding-bottom: 2rem;
+    margin-bottom: .5rem;
     position: relative;
 }
 
